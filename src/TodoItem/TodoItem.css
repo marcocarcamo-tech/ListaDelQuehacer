@@ -1,0 +1,85 @@
+.TodoItem {
+    background: #FC997C;
+    list-style: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 5px 5px 5px 5px;
+    color: #2E4C6D;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+ul div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 200px;
+    width: 70%;
+}
+
+ul div:hover {
+    
+    width: 75%;
+    height: 70px;
+
+    
+}
+li:hover {
+    height: 100%;
+}
+.TodoItem-list{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(33.3%, 1fr));
+    width: 100%;
+}
+.TodoItem-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TodoItem-p--complete {
+    text-decoration: line-through;
+    font-weight: normal;
+}
+.Icon-check {
+    border: 2px solid #DADDFC;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #FC997C;
+    width: 20%;
+}
+.Icon-check:hover {
+    cursor: pointer;
+}
+.Icon-check--active {
+    color: greenyellow;
+}
+
+.Icon-delete {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.Icon-delete p {
+    margin: 0;
+    font-size: 20px;
+    
+}
+.Icon-delete p:hover {
+    color: red;
+    cursor: pointer;
+}

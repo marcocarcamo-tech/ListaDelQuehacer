@@ -1,0 +1,25 @@
+.CreateTodoButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 80px;
+    background: rgba(57, 111, 176, 0.589);
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    right: 24px;
+    bottom: 24px;
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    color: #FC997C;
+    font-weight: bold;
+    
+}
+
+.CreateTodoButton:hover {
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+}
